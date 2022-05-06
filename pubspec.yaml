@@ -1,0 +1,21 @@
+name: flutter_ios_doc_scanner
+description: A Flutter Plugin to access Apple iOS VisionKit Document Scanner.
+version: 0.0.3
+homepage: https://github.com/livebird/flutter_ios_doc_scanner
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      ios:
+        pluginClass: FlutterIOSDocScanner
