@@ -56,7 +56,6 @@ public class SwiftFlutterIOSDocScanner: NSObject, FlutterPlugin {
             DispatchQueue.main.async {
                 result(imagePaths)
             }
-            result(imagePaths)
         }
     }
 }
